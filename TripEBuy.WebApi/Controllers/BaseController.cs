@@ -245,7 +245,7 @@ namespace TripEBuy.WebApi.Controllers
 
         #endregion Methods
 
-        /// <summary> 查看Model层的参数验证是否通过！ </summary>
+        /// <summary> 查看Model层的参数验证是否通过</summary>
         /// <returns></returns>
         /// <summary> 验证失败消息列表 </summary>
         /// <returns></returns>
