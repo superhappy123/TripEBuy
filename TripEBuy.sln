@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripEBuy.Common", "TripEBuy.Common\TripEBuy.Common.csproj", "{F6F32FE8-7A0A-4A8B-9FD2-ECCA7F5093D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripEBuy.Bll", "TripEBuy.Bll\TripEBuy.Bll.csproj", "{C7EEDF84-28AD-4558-85B7-A00855F68E0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripEBuy.DalFactory", "TripEBuy.DalFactory\TripEBuy.DalFactory.csproj", "{8C0A843F-C672-4533-B6E3-1E8F018743C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripEBuy.IDal", "TripEBuy.IDal\TripEBuy.IDal.csproj", "{C9D52044-A3C1-4E22-9600-892AD2ED1848}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripEBuy.Model", "TripEBuy.Model\TripEBuy.Model.csproj", "{5564171E-D1E1-4598-B6A5-8E2E61FE0EB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripEBuy.SqlServerDal", "TripEBuy.SqlServerDal\TripEBuy.SqlServerDal.csproj", "{73CDA874-30B8-402F-BA4B-C3828B8FB898}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripEBuy.WebApi", "TripEBuy.WebApi\TripEBuy.WebApi.csproj", "{8B85C2FC-451F-4FC0-8678-860D7AFA401D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6F32FE8-7A0A-4A8B-9FD2-ECCA7F5093D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6F32FE8-7A0A-4A8B-9FD2-ECCA7F5093D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6F32FE8-7A0A-4A8B-9FD2-ECCA7F5093D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6F32FE8-7A0A-4A8B-9FD2-ECCA7F5093D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7EEDF84-28AD-4558-85B7-A00855F68E0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7EEDF84-28AD-4558-85B7-A00855F68E0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7EEDF84-28AD-4558-85B7-A00855F68E0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7EEDF84-28AD-4558-85B7-A00855F68E0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C0A843F-C672-4533-B6E3-1E8F018743C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C0A843F-C672-4533-B6E3-1E8F018743C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C0A843F-C672-4533-B6E3-1E8F018743C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C0A843F-C672-4533-B6E3-1E8F018743C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9D52044-A3C1-4E22-9600-892AD2ED1848}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9D52044-A3C1-4E22-9600-892AD2ED1848}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9D52044-A3C1-4E22-9600-892AD2ED1848}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9D52044-A3C1-4E22-9600-892AD2ED1848}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5564171E-D1E1-4598-B6A5-8E2E61FE0EB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5564171E-D1E1-4598-B6A5-8E2E61FE0EB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5564171E-D1E1-4598-B6A5-8E2E61FE0EB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5564171E-D1E1-4598-B6A5-8E2E61FE0EB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73CDA874-30B8-402F-BA4B-C3828B8FB898}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73CDA874-30B8-402F-BA4B-C3828B8FB898}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73CDA874-30B8-402F-BA4B-C3828B8FB898}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73CDA874-30B8-402F-BA4B-C3828B8FB898}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B85C2FC-451F-4FC0-8678-860D7AFA401D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B85C2FC-451F-4FC0-8678-860D7AFA401D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B85C2FC-451F-4FC0-8678-860D7AFA401D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B85C2FC-451F-4FC0-8678-860D7AFA401D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
