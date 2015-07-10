@@ -15,7 +15,7 @@ namespace TripEBuy.WebApi.Controllers
     {
         #region Properties
         /// <summary>
-        /// 验证消息结果
+        /// 验证消息结果!
         /// </summary>
         public string ValidaTionMessage { get; set; }
         public RequestMode reqMod { get; set; }
