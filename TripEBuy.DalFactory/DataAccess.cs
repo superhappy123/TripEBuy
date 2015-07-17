@@ -18,14 +18,14 @@ namespace TripEBuy.DalFactory
         }
         private static void SetAssemblyBySQLMode(ref string className, out string classPath)
         {
-            classPath = null;
+            classPath = "";
             string sqlmodename = ConfigurationManager.AppSettings["sqlmode"];
 
             switch (sqlmodename)
             {
                 case "SQLServer":
-                    classPath = path + ".SQLServerDAL";
-                    className = string.Format("{0}.SQLServerDAL.{1}", path, className);
+                    classPath = path + ".SqlServerDal";
+                    className = string.Format("{0}.SqlServerDal.{1}", path, className);
                     break;
                 case "Mongodb":
                     classPath = path + ".MongodbDAL";
@@ -44,18 +44,20 @@ namespace TripEBuy.DalFactory
         public static IUserRepository UserInfo()
         {
             string className = "UserRepository";
-            string classPath;
+            string classPath = "";
+            IUserRepository iUser = null;
 
             SetAssemblyBySQLMode(ref className, out classPath);
-
+            
             try
             {
-                return Assembly.Load(classPath).CreateInstance(className) as IUserRepository;
+                iUser = Assembly.Load(classPath).CreateInstance(className) as IUserRepository;
             }
             catch (Exception ex)
             {
-                throw ex;
+                //throw ex;-
             }
+            return iUser;
         }
     }
 }
