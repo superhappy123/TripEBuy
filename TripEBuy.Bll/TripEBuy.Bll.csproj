@@ -53,7 +53,7 @@
       <Name>TripEBuy.DalFactory</Name>
     </ProjectReference>
     <ProjectReference Include="..\TripEBuy.IDal\TripEBuy.IDal.csproj">
-      <Project>{c9d52044-a3c1-4e22-9600-892ad2ed1848}</Project>
+      <Project>{5bcc45ea-e13e-44b2-b939-0c1ff3c4caf9}</Project>
       <Name>TripEBuy.IDal</Name>
     </ProjectReference>
     <ProjectReference Include="..\TripEBuy.Model\TripEBuy.Model.csproj">
