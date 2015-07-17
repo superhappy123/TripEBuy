@@ -10,7 +10,7 @@ namespace TripEBuy.SqlServerDal
 {
     public class UserRepository : IUserRepository
     {
-        public UserInfoResponse LogIn(UserInfoRequest user)
+        public Model.UserInfoResponse LogIn(Model.UserInfoRequest user)
         {
             UserInfoResponse userR = new UserInfoResponse();
             userR.UserName = "登录成功，用户名：" + user.UserName;

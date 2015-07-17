@@ -4,14 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{73CDA874-30B8-402F-BA4B-C3828B8FB898}</ProjectGuid>
+    <ProjectGuid>{1306454C-C9DD-4F27-9102-1BFE9B20445A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>TripEBuy.SqlServerDal</RootNamespace>
     <AssemblyName>TripEBuy.SqlServerDal</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -49,7 +48,7 @@
       <Name>TripEBuy.Common</Name>
     </ProjectReference>
     <ProjectReference Include="..\TripEBuy.IDal\TripEBuy.IDal.csproj">
-      <Project>{c9d52044-a3c1-4e22-9600-892ad2ed1848}</Project>
+      <Project>{5bcc45ea-e13e-44b2-b939-0c1ff3c4caf9}</Project>
       <Name>TripEBuy.IDal</Name>
     </ProjectReference>
     <ProjectReference Include="..\TripEBuy.Model\TripEBuy.Model.csproj">
