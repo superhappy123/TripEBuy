@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserAccountInfo.cs" />
     <Compile Include="UserInfoRequest.cs" />
     <Compile Include="UserInfoResponse.cs" />
   </ItemGroup>
